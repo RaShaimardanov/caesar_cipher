@@ -30,4 +30,8 @@ cd caesar_cipher
 python caesar.py encode 3
 python caesar.py decode 3
 ```
+Вызов справки:
+```
+python caesar.py -h
+```
 Все данные будут сохранены в файл output.txt.
