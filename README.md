@@ -1,4 +1,4 @@
-# ШИФР ЦЕЗАРЯ
+# ШИФР ЦЕЗАРЯ и ШИФР ВИЖИНЕРА
 ## Возможности проекта:
 - Шифровать текст.
 - Дешифровать текст.
@@ -29,9 +29,12 @@ cd caesar_cipher
 ```
 python caesar.py encode 3
 python caesar.py decode 3
+python vigenere.py encode маяк
+python vigenere.py decode маяк
 ```
 Вызов справки:
 ```
 python caesar.py -h
+python vigenere.py -h
 ```
 Все данные будут сохранены в файл output.txt.
