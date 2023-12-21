@@ -53,7 +53,9 @@ if __name__ == "__main__":
 
     with open('output.txt', 'w', encoding='utf-8') as output_file:
         output_file.write(ciphertext)
-
     if args.mode == 'decode':
+        print("Дешифрование завершено.")
         error_percentage = calculate_error(ciphertext)
         print(f"Процент ошибки: {error_percentage:.2f}%")
+    else:
+        print("Шифрование завершено.")

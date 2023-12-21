@@ -61,5 +61,8 @@ if __name__ == "__main__":
         output_file.write(translated)
 
     if args.mode == 'decode':
+        print("Дешифрование завершено.")
         error_percentage = calculate_error(translated)
         print(f"Процент ошибки: {error_percentage:.2f}%")
+    else:
+        print("Шифрование завершено.")
